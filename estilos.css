@@ -1,67 +1,48 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+       
 }
 
-.pantalla_dividida{
-    display: flex;
-    justify-content: center;
-}
-.pantalla_izquierda{
-    
-    background-image: url(fondo_2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color:  #CBE989;
-    height: 100vh;
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-}
 
-.pantalla_derecha {
+.bg_1{
     background-color: #FAA8DB;
-    height: 100vh;
-    width: 35%;
-    padding-left: 40px;
-    
 }
 
-.apellido{
+.img{
+    width:250px;
+    height:250px
+}
+
+
+.bg_2{
+    background-image: linear-gradient(to bottom, #faa8db, #eca9d8, #deaad3, #d1aacd, #c5aac6, #b7a8c2, #aba5bb, #a1a2b3, #949ca9, #8a969e, #848f92, #808787); ; 
+}
+
+.contenedor_1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Inspiration', cursive;
+  font-size: 80px;
+}
+
+.contenedor_2{
+    padding-top: 20px;
+    padding-bottom: 30px;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 30px;
-    margin-top: 40%;
-    margin-right: 10px;
+  }
+
+  .texto_1{
+    justify-content: center;
+    
+  }
+.nombre{
+    font-family: 'Inspiration', cursive;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.color_fondo{
-    background-color: #808787;
-}
 
-@media (max-width: 600px) {
 
-    .pantalla_derecha { background-color: #808787;
-        flex-wrap: wrap;
-        width: 100%;
-     
-    }
-    .pantalla_dividida{
-        flex-direction: column;
-        
-    }
-    .pantalla_izquierda {
-        width: 100%;
-        background-color: #CBE989;
-       background-image:url(fondo_3.jpg);
-    }
 
-    .apellido{
-        font-family: 'Cedarville Cursive', cursive;
-        font-size: 30px;
-        margin-top: 10%;
-        margin-right: 10px;
-    }
-}
